@@ -9,3 +9,8 @@ For each graph size and cost correlation, the repository contains:
 - the corresponding graph instances;
 - the supported non-dominated points generated during the first phase of the two-phase method;
 - the spanning trees corresponding to these points.
+
+Each instance file specifies an undirected graph G=(N,E) together with the associated bi-objective edge costs:
+- the first line indicates the graph topology (e.g., complete or grid graph);
+- the second and third lines report the number of nodes, ∣N∣=n, and the number of edges, ∣E∣=m, respectively.
+- each of the following lines corresponds to one edge (i,j)∈E and is given in the format i j c_1 c_2, where i and j denote the endpoints of the edge and c_1, c_2 are the corresponding integer costs on the two objectives.
